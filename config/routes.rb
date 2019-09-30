@@ -8,5 +8,6 @@ Rails.application.routes.draw do
    end
    resources :comments
   end
-root  ('lesson#index')
+root  :to => "links#index"
 end
+
