@@ -1,6 +1,16 @@
 # Hacker news clone
 
 this is a rails 5 app, a replica of reddit
+###requirements 
+- Users need to be able to sign-up, sign-in and sign-out
+
+  - Signed-in users will need to be able to submit a link with a title and a URL
+  - Magic
+ - Users will be able to vote up or down on the link submissions
+
+  - Users will be able to comment on link submissions
+
+
 
 ## To run app
 rails version 5.1.7
