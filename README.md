@@ -2,8 +2,20 @@
 
 this is a rails 5 app, a replica of reddit
 
-## Installation
-generated with rails new [app name]
+## To run app
+rails version 5.1.7
+
+```bash
+git clone https://github.com/nenekelvin/hackernews
+```
+
+```bash
+bundle install
+```
+
+```bash
+rails s
+```
  
 # Gems added
 #### gem 'bootstrap-sass', '~> 3.4.1'
