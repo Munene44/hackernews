@@ -16,6 +16,7 @@ gem 'puma', '~> 3.7'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'simple_form'
+gem 'record_tag_helper', '~> 1.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
