@@ -1,24 +1,20 @@
- README
+# Hacker news clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+this is a rails 5 app, a replica of reddit
 
-Things you may want to cover:
+## Installation
+generated with rails new [app name]
+ 
+# Gems added
+#### gem 'bootstrap-sass', '~> 3.4.1'
+#### gem 'sassc-rails', '>= 2.1.0'
+#### gem 'devise', '~> 4.4', '>= 4.4.1'
+#### gem 'acts_as_votable', '~> 0.11.1'
+#### gem 'simple_form'
+#### gem 'record_tag_helper', '~> 1.0'
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
