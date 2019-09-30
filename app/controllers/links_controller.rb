@@ -1,7 +1,6 @@
 class LinksController < ApplicationController
   before_action :set_link, only: [:show, :edit, :update, :destroy]
-
-  # GET /links
+before_action :authenticate_user!, except: [:index, :show]  # GET /links
   # GET /links.json
   def index
     @links = Link.all
@@ -13,8 +12,8 @@ class LinksController < ApplicationController
   end
 
   # GET /links/new
-  def new
-    @link = Link.new
+ def new
+    @link = current_user.links.build
   end
 
   # GET /links/1/edit
@@ -24,9 +23,8 @@ class LinksController < ApplicationController
   # POST /links
   # POST /links.json
   def create
-    @link = Link.new(link_params)
-
-    respond_to do |format|
+    @link = current_user.links.build(link_params)
+respond_to do |format|
       if @link.save
         format.html { redirect_to @link, notice: 'Link was successfully created.' }
         format.json { render :show, status: :created, location: @link }
