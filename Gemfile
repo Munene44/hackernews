@@ -18,6 +18,8 @@ gem 'simple_form'
 gem 'record_tag_helper', '~> 1.0'
 gem 'activeadmin'
 gem 'inherited_resources'
+
+gem 'gravtastic'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
