@@ -2,7 +2,7 @@
 
 this is a rails 5 app, a replica of reddit
 
-##requirements 
+## requirements 
 - Users need to be able to sign-up, sign-in and sign-out
 
   - Signed-in users will need to be able to submit a link with a title and a URL
