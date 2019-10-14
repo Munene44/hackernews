@@ -11,5 +11,7 @@ Rails.application.routes.draw do
    resources :comments
   end
 root  :to => "links#index"
+  
 end
+
 
