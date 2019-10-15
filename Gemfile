@@ -18,7 +18,8 @@ gem 'simple_form'
 gem 'record_tag_helper', '~> 1.0'
 gem 'activeadmin'
 gem 'inherited_resources'
-
+gem 'mini_magick'
+gem 'carrierwave'
 gem 'gravtastic'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
