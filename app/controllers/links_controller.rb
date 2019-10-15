@@ -77,6 +77,6 @@ respond_to do |format|
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def link_params
-      params.require(:link).permit(:title, :url)
+      params.require(:link).permit(:title, :url, :picture)
     end
 end
