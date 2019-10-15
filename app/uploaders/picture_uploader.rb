@@ -1,8 +1,9 @@
 class PictureUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
   version :thumb do
-  process :resize_to_fit => [50, 50]
+process :resize_to_fit => [100, 10000]
 end
+
 
   storage :file
 
