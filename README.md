@@ -5,7 +5,7 @@ this is a rails 5 app, a replica of reddit
 ## requirements 
 - Users need to be able to sign-up, sign-in and sign-out
 
-  - Signed-in users will need to be able to submit a link with a title and a URL
+ - Signed-in users will need to be able to submit a link with a title and a URL
   
  - Users will be able to vote up or down on the link submissions
 
@@ -29,13 +29,19 @@ rails s
 ```
  
 # Gems added
-#### gem 'bootstrap-sass', '~> 3.4.1'
-#### gem 'sassc-rails', '>= 2.1.0'
-#### gem 'devise', '~> 4.4', '>= 4.4.1'
-#### gem 'acts_as_votable', '~> 0.11.1'
-#### gem 'simple_form'
-#### gem 'record_tag_helper', '~> 1.0'
 
+- gem 'bootstrap-sass', '~> 3.4.1'
+- gem 'sassc-rails', '>= 2.1.0'# Use Puma as the app server
+- gem 'puma', '~> 3.7'
+- gem 'devise', '~> 4.4', '>= 4.4.1'
+- gem 'acts_as_votable', '~> 0.11.1'
+- gem 'simple_form'
+- gem 'record_tag_helper', '~> 1.0'
+- gem 'activeadmin'
+- gem 'inherited_resources'
+- gem 'carrierwave'
+- gem 'gravtastic'
+- gem 'net-ssh'
 
 
 
