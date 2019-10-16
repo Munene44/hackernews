@@ -1,8 +1,9 @@
 <% @links.each do |link| %>
   <div class="link row clearfix">
  <h2>
-        <%= link_to link.title, link %><br>
 
+        <%= link_to link.title, link %><br>
+<%= image_tag link.picture_url, width: '35%' if link.picture.present? %>
         <h5><small class="author">Submitted <%= time_ago_in_words(link.created_at) %> ago by <%= link.user.email %></h5><small></small>
     </h2>
 <div class="btn-group">
