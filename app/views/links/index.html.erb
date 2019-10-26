@@ -6,10 +6,10 @@
 <%= image_tag link.picture_url, width: '35%' if link.picture.present? %>
         <h5><small class="author">Submitted <%= time_ago_in_words(link.created_at) %> ago by <%= link.user.email %></h5><small></small>
     </h2>
-<div class="btn-group">
+  <div class="btn-group">
       <a class="btn btn-default btn-sm" href="<%= link.url %>">Visit page</a>
-      <%= link_to like_link_path(link), method: :put, class: "btn btn-default btn-sm" do %>
-      <span class="glyphicon glyphicon-chevron-up"></span>
+        <%= link_to like_link_path(link), method: :put, class: "btn btn-default btn-sm" do %>
+          <span class="glyphicon glyphicon-chevron-up"></span>
       Upvote
       <%= link.get_upvotes.size %>
       <% end %>
@@ -18,8 +18,8 @@
       Downvote
       <%= link.get_downvotes.size %>
        <% end %>
-    </div>
-   </div>
+  </div>
+</div>
 
    
   <% end %>
