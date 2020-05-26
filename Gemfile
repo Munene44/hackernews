@@ -10,7 +10,7 @@ ruby "2.5.1"
 gem 'rails', '~> 5.1.7'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sassc-rails', '>= 2.1.0'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'simple_form'
