@@ -1,6 +1,5 @@
 # Hacker news clone
-
-this is a rails 5 app, a replica of reddit
+a replica of reddit
 
 ## requirements 
 - Users need to be able to sign-up, sign-in and sign-out
